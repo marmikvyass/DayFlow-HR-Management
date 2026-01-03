@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/pa45h/DayFlow-HR-Management#readme",
+  "bugs": {
+    "url": "https://github.com/pa45h/DayFlow-HR-Management/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pa45h/DayFlow-HR-Management.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.0.0",
+    "mongoose": "^9.1.1",
+    "nodemon": "^3.1.11"
+  }
+}
